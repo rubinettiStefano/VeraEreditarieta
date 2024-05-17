@@ -7,13 +7,6 @@ package com.generation.model;
  */
 public abstract class Entity 
 {
-
-    public static final Integer maxId = 9999;
-
-    public static String ciao()
-    {
-        return "ciao";
-    } 
     //public
     //package/default
     //private
@@ -40,7 +33,7 @@ public abstract class Entity
     @Override  //FACOLTATIVA
     public String toString()
     {
-        return "Entity con id->"+id;
+        return "Sono una Entity";
     }
 
 
