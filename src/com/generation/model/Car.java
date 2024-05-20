@@ -3,6 +3,7 @@ package com.generation.model;
 public class Car extends Entity
 {
 
+    int cilindrata;
     @Override
     public String writeInsertQuery() {
         
